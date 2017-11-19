@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+	
+	<!-- start First Aop  -->
+	<aop:aspectj-autoproxy />
+		
+	<bean name="loggingAspect" class="com.firstaop.aspect.LoggingAspect" />
+	
+	<bean name="circle" class="com.firstaop.model.Circle">
+		<property name="name" value="circle used"></property>
+	</bean>
+	<bean name="traingle" class="com.firstaop.model.Traingle">
+		<property name="name" value="Traingle used"></property>
+	</bean>
+	
+	<bean name="shapeService" class="com.firstaop.service.ShapeService" autowire="byName" />
+
+	<!-- end First Aop  -->
+	
+</beans>
