@@ -1,4 +1,4 @@
-package com.secondaop.model;
+package com.afteraop.model;
 
 public class Circle{
 	String name;

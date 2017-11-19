@@ -1,6 +1,6 @@
-package com.secondaop.model;
+package com.beforeaop.model;
 
-public class Traingle {
+public class Circle{
 	String name;
 
 	public String getName() {

@@ -1,4 +1,4 @@
-package com.firstaop.model;
+package com.aroundaop.model;
 
 public class Traingle {
 	String name;

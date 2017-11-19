@@ -1,9 +1,9 @@
-package com.secondaop;
+package com.afteraop;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.secondaop.service.ShapeService;
+import com.afteraop.service.ShapeService;
 
 class Application{
 	

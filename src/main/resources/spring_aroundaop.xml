@@ -9,16 +9,16 @@
 	<!-- start First Aop  -->
 	<aop:aspectj-autoproxy />
 		
-	<bean name="loggingAspect" class="com.beforeaop.aspect.LoggingAspect" />
+	<bean name="loggingAspect" class="com.aroundaop.aspect.LoggingAspect" />
 	
-	<bean name="circle" class="com.beforeaop.model.Circle">
+	<bean name="circle" class="com.aroundaop.model.Circle">
 		<property name="name" value="circle used"></property>
 	</bean>
-	<bean name="traingle" class="com.beforeaop.model.Traingle">
+	<bean name="traingle" class="com.aroundaop.model.Traingle">
 		<property name="name" value="Traingle used"></property>
 	</bean>
 	
-	<bean name="shapeService" class="com.beforeaop.service.ShapeService" autowire="byName" />
+	<bean name="shapeService" class="com.aroundaop.service.ShapeService" autowire="byName" />
 
 	<!-- end First Aop  -->
 	

@@ -1,8 +1,9 @@
-package com.firstaop;
+package com.beforeaop;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.firstaop.service.ShapeService;
+
+import com.beforeaop.service.ShapeService;
 
 class Application{
 	

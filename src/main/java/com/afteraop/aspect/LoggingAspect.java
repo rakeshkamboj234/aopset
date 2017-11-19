@@ -1,4 +1,4 @@
-package com.secondaop.aspect;
+package com.afteraop.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
